@@ -1,0 +1,63 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* these colors are not final... they can be changed as needed */
+:root{
+    --light_grey:F6F5F2;
+    --grey: F0EBE3;
+    --light-pink:F3D0D7;
+    --lighter-pink:FFEFEF;
+}
+
+/* project fonts */
+@font-face {
+    font-family: poppins_black;
+    src: url("assets/Poppins/Poppins-Black.ttf");
+}
+@font-face {
+    font-family: poppins_black_italic;
+    src: url("assets/Poppins/Poppins-Blackitalic.ttf");
+}
+@font-face {
+    font-family: poppins_bold;
+    src: url("assets/Poppins/Poppins-Bold.ttf");
+}
+@font-face {
+    font-family: poppins_bold_italic;
+    src: url("assets/Poppins/Poppins-BoldItalic.ttf");
+}
+@font-face {
+    font-family: poppins_extralight;
+    src: url("assets/Poppins/Poppins-ExtraLight.ttf");
+}
+@font-face {
+    font-family: poppins_extralight_italic;
+    src: url("assets/Poppins/Poppins-ExtraLightItalic.ttf");
+}
+@font-face {
+    font-family: poppins_italic;
+    src: url("assets/Poppins/Poppins-Italic.ttf");
+}
+@font-face {
+    font-family: poppins_light;
+    src: url("assets/Poppins/Poppins-Light.ttf");
+}
+@font-face {
+    font-family: poppins_light_italic;
+    src: url("assets/Poppins/Poppins-LightItalic.ttf");
+}
+@font-face {
+    font-family: poppins_medium;
+    src: url("assets/Poppins/Poppins-Medium.ttf");
+}
+@font-face {
+    font-family: poppins_medium_italic;
+    src: url("assets/Poppins/Poppins-MediumItalic.ttf");
+}
+@font-face {
+    font-family: poppins_regular;
+    src: url("assets/Poppins/Poppins-Regular.ttf");
+}
