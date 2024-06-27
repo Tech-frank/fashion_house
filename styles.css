@@ -61,3 +61,59 @@
     font-family: poppins_regular;
     src: url("assets/Poppins/Poppins-Regular.ttf");
 }
+
+body {
+    margin: 0%;
+    overflow: hidden;
+}
+
+.contact-image{
+    display: inline-flex;
+    align-content: center;
+    width: max-content;
+    height: max-content;
+    gap: 50px;
+}
+
+.contact-image img {
+    position: relative;
+    width: 50vw;
+    height: 100vh;
+
+}
+
+.bigboy{
+    margin: auto;
+    gap: 12px;
+    width:  50vw;
+}
+
+.text h3{
+    display: flex;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 3%;
+}
+
+.p-text{
+    display: flex;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(151, 143, 143);
+    padding-bottom: 3%;
+}
+
+.bigboy form {
+    display: block;
+    gap: 15px;
+}
+
+.bigboy form span.span_0 {
+    display: flex;
+    gap: 40px;
+}
+
+.bigboy form span.span_0  {
+    
+}
