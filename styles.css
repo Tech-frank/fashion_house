@@ -258,7 +258,7 @@ article{
 .fetch h3{
   font-size: 80px;
   text-align: start;
- background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(./pages/image/Top.jpg) fixed;
+ background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(./pages/image/Top.jpg) ;
   background-size: cover;
   background-position:center;
   height: 100vh;
@@ -297,14 +297,13 @@ position: relative;
   text-align:center;
 }
 .our_story p{
-text-align:start;
-justify-content: stretch;
+text-align:center;
+justify-content: center;
 font-size: 26px;
 font-weight:1px;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 color: #333;
-display: block;
-margin-bottom:100px;
+display:inline-table;
 
 }
 .Our_Team{
@@ -322,6 +321,37 @@ box-shadow: inset;
 text-transform: capitalize;
 text-wrap:wrap ;
 }
+.point1{
+ width: 100%; 
+  text-align:start;
+  justify-content: start;
+  font-size: 20px;
+  font-weight:1px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #333;
+  display:inline-table;
+}
+.point2{
+  text-align:end;
+  justify-content: end;
+  font-size: 20px;
+  font-weight:1px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #333;
+  display:inline-table;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.point1 img{
+  border-radius: 14px;
+  justify-content: center;
+text-align: center;
+}
+.point2 img{
+  border-radius: 14px;
+  justify-content: center;
+text-align: center;
+}
 section .card .image{
  height: 140px;
  width: 140px;
@@ -334,9 +364,9 @@ section .card .image{
 }
 .imag{
   object-fit: cover;
-  height: 400px;
-  width: 400px;
+  height: 360px;
   text-align: center;
+  margin: 0px;
 }
 section .card .image img{
  height: 100%;
@@ -476,7 +506,7 @@ transition: 0.5s ;
 }
 
 footer{
-padding: 70px;
+padding: 10px;
 background-color: #24262b;
 color: #f5f5f5;
 
@@ -563,6 +593,6 @@ transition: all 0.5s ease;
   display: flex;
   flex-wrap: wrap;
 }
-@media screen {
+@media screen  {
   
 }
