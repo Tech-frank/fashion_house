@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact us :: Nuxus Contact page</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+			integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+			crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header id="headerMenuGoesHere">
+            <!-- The header menu will come in here first before the banner. -->
+		</header>
+
+        <div class="contactus">
+            <div class="contact-image">
+                <img src="assets/images/istockphoto-1351571961-170667a.webp" alt="">
+        
+                <div class="bigboy">
+                    <div class="text">
+                        <h3>Contact Us</h3>
+                    </div>
+        
+                    <div class="p-text">
+                        <p>If you have any futher questions about this website please <br> make sure to fill and submit the form  below</p>
+                    </div>
+        
+                    <form id="form" action="">
+                        <span class="span_0">
+                            <div>
+                                <h5>First Name</h5>
+                                <input type="text" placeholder="First Name" id="f_name">
+                            </div>
+                            <div>
+                                <h5>Last Name</h5>
+                                <input type="text" placeholder="Last Name" id="l_name">
+                            </div>
+                        </span>    
+                        <br>
+                        <span class="span_1">
+                            <h4 for="email">Email Address</h4>
+                            <input type="Email" placeholder="Email" id="e_mail">
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                            <h4 for="message">Message</h4>
+                            <textarea name="" id="message" placeholder="Message"></textarea>
+                        </span> 
+                    </form>
+        
+                    <button id="send">
+                        <span><h5 id="blue">SEND</h5><h5 id="white">MESSAGE</h5></span>
+                    </button>
+                    
+                </div>
+        
+            </div>
+        </div>
+
+        <footer id="footerMenuGoesHere" class="footer">
+            <!-- The footer menu will come in here. -->
+        </footer>
+
+        <script src="assets/js/index.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+
+            getNavigationMenu([
+                {
+                    id: 'headerMenuGoesHere',
+                    file: './../components/header.html',
+                },
+                {
+                    id: 'footerMenuGoesHere',
+                    file: './../components/footer.html',
+                }
+            ]);
+        </script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
