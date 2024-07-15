@@ -248,8 +248,6 @@ article{
   text-align: center;
 }
 .fetch{
- margin-bottom: 70px;
- 
 
  font-weight: 30px;
  font-size: 40px;
@@ -279,8 +277,9 @@ justify-content: left;
   text-align: left;
   display: flex;
   justify-content: center;
-  font-size: 7.4vh;
-  margin-bottom: 170px;
+  font-size: 4.4vh;
+  margin-top: 90px;
+  margin-bottom: 47px;
 }
 .fetch .imag {
   border-radius:20px;
@@ -593,54 +592,58 @@ transition: all 0.5s ease;
   display: flex;
   flex-wrap: wrap;
 }
-@media (max-width:760px) {
+@media (max-width:1024px) {
   .Aboutus{
-    max-width: 500px;
-    min-width: 200px;
+    max-width: 800px;
+    min-width: 800px;
 
   }
+  .fetch{
+    max-height: fit-content;
+  }
   .fetch h3{
- font-size: 40px;
+ font-size: 60px;
 
   }
   .fetch p{
-    margin-top: 1px;
-    font-size: 14px;
+    margin-top: 3px;
+    font-size: 26px;
     text-align:center;
-    font-style: 2px;
+    font-style: 4px;
     color: #393838f4;
     display: inline-block;
   }
   .fetch .imag {
-   height:150px ;
-   width:100px ;
+   height:250px ;
+   width:200px ;
   }
   .express{
     text-align: left;
     display: flex;
     justify-content: center;
-    font-size: 2vh;
-    margin: 20px;
+    font-size: 4vh;
+    margin: 90px;
+    
   }
   .our_story h3{
-    font-size:30px ;
+    font-size:90px ;
     text-align:center;
   }
   .our_story p{
     text-align:center;
     justify-content: center;
-    font-size: 12px;
-    display: inline;
+    font-size: 25px;
+    display: inline-table;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #333;
     display:inline-table;
-    
+    font-weight: lighter;
     }
   .point1{
     text-align:center;
     justify-content: center;
-    font-size: 12px;
-    font-weight:1px;
+    font-size: 20px;
+    font-weight:2px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #333;
     display:inline;
@@ -648,26 +651,96 @@ transition: all 0.5s ease;
     .point2{
       text-align:center;
       justify-content: center;
-      font-size: 12px;
-      font-weight:1px;
+      font-size: 20px;
+      font-weight:2px;
       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       color: #333;
       display:inline;
-      margin-top: 10px;
-      margin-bottom: 20px;
+      margin-top: 20px;
+      margin-bottom: 40px;
     }
     .Our_Team{
       margin-top:25px;
-      font-size: 22px;
+      font-size: 50px;
       margin-bottom:10px;
       text-shadow: #7d2ae8;
     
     }
   }
+  @media (max-width:760px) {
+    .Aboutus{
+      max-width: 500px;
+      min-width: 300px;
+  
+    }
+    .fetch h3{
+   font-size: 40px;
+  
+    }
+    .fetch p{
+      margin-top: 1px;
+      font-size: 14px;
+      text-align:center;
+      font-style: 2px;
+      color: #393838f4;
+      display: inline-block;
+    }
+    .fetch .imag {
+     height:150px ;
+     width:100px ;
+    }
+    .express{
+      text-align: left;
+      display: flex;
+      justify-content: center;
+      font-size: 2vh;
+      margin: 20px;
+    }
+    .our_story h3{
+      font-size:30px ;
+      text-align:center;
+    }
+    .our_story p{
+      text-align:center;
+      justify-content: center;
+      font-size: 12px;
+      display: inline;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: #333;
+      display:inline-table;
+      
+      }
+    .point1{
+      text-align:center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight:1px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: #333;
+      display:inline;
+      }
+      .point2{
+        text-align:center;
+        justify-content: center;
+        font-size: 12px;
+        font-weight:1px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: #333;
+        display:inline;
+        margin-top: 10px;
+        margin-bottom: 20px;
+      }
+      .Our_Team{
+        margin-top:25px;
+        font-size: 22px;
+        margin-bottom:10px;
+        text-shadow: #7d2ae8;
+      
+      }
+    }
 @media (max-width:425px) {
   .fetch .imag {
     height:120px ;
     width:100px ;
    }
-
 }
