@@ -1,3 +1,18 @@
+function getNavigationMenu(data) {
+    data.forEach(el => {
+        let elementId = document.getElementById(el.id);
+
+        fetch(el.file).then((res) => {
+            return res.text()
+
+        }).then((html) => {
+            elementId.insertAdjacentHTML("afterbegin", html);
+
+        }).catch((err) => {  
+            alert(`Failed to fetch page: ${err}`);  
+        });
+    });
+}
 
 const navMenu = () => {
     const hamMenu = document.querySelector('.ham_menu');
@@ -7,8 +22,7 @@ const navMenu = () => {
     hamMenu.addEventListener('click', () => {
         navLinks.classList.toggle('nav_active');
 
- //animation
-   
+        //animation
         navItems.forEach((link, index) => {
             if (link.style.animation){
                 link.style.animation = ''

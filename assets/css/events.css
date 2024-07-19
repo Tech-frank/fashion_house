@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.event-banner {
+    font-family: "Poppins", sans-serif;
+    background-color: #f5eee9;
+}
+
+.event-cat {
+    font-family: "Poppins", sans-serif;
+    background-color: #f5eee9;
+}
+
+.event-banner-row {
+    align-items: center;
+}
+
+.event-banner p, ul{
+    font-size: .9rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: #6e6d7a;
+}
+
+.event-banner ul{
+    padding-left: .9rem;
+}
+
+.event-banner h1{
+    font-size: 4rem;
+    line-height: 4.5rem;
+    font-weight: 700;
+    padding-top: .5rem;
+    padding-bottom: 2.5rem;
+    
+}
+
+.event-banner button{
+    background-color: black;
+    color: whitesmoke;
+    padding: .8rem 1.8rem;
+    font-size: .9rem;
+    margin-top: 2rem;
+}
+
+.event-banner-img {
+    justify-content: center;
+}
+
+.event-banner-img img{
+    width: 100%;
+    text-align: center;
+    
+}
+
+.event-title {
+    color: #3d3d4e;
+    margin-bottom: 1.7rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.event-title h1 {
+   font-size: 2.3rem;
+}
+
+.event-title p {
+    font-weight: 300;
+}
+
+.tw-card { 
+    font-family: "Poppins", sans-serif;
+    color: #3d3d4e;
+    border-radius: .5rem;
+    padding-top: .6rem;
+    padding-bottom: 0rem;
+    padding-left: .6rem;
+    padding-right: .6rem;
+    margin-bottom: .8rem;
+}
+
+.tw-card-border {
+    border: .1rem solid #6e6d7a;
+}
+
+.tw-card img { 
+    object-fit: contain;
+}
+
+.tw-card-amount {
+    color: #070767;
+    font-weight: 400;
+}
+
+.tw-card-name {
+    margin-top: .2rem;
+}
+
+.tw-card-loda {
+    margin-top: .7rem;
+    font-size: .7rem;
+}
+
+.event-cat-ban {
+    background-color: #6e6d7a;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #eeeaea;
+}
+
+.ban-01 {
+    background-image: url("../images/pexels-robin-381450-1020370.jpg"); 
+}
+
+.ban-02 {
+    background-image: url("../images/anthony-delanoix-CFi7_hCXecU-unsplash.jpg");
+}
+
+.ban-03 {
+    background-image: url("../images/istockphoto-1351571961-170667a.webp");
+}
+
+.event-cat-ban-det {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.event-cat-ban-det h5 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.event-cat-ban-det button {
+    background: transparent;
+    border: .1rem solid #eeeaea;
+    border-radius: .2rem;
+    padding: 6px 16px;
+    color: #eeeaea;
+}
+
