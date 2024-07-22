@@ -33,6 +33,10 @@ body {
   overflow-x: hidden;
 }
 
+body.active {
+  overflow: hidden;
+}
+
 a {
   color: #222222;
 }
@@ -42,7 +46,8 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin: auto;
-  padding: 1.5rem 3rem;
+  /* padding: 1.5rem 3rem; */
+  height: 9vh;
 }
 
 nav .logo img {
@@ -59,8 +64,7 @@ nav .logo img {
   z-index: 99;
   background: #f3f3f3;
   transition: all 0.5s ease;
-  filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07))
-    drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+  filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
   transition-property: box-shadow;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
@@ -121,7 +125,7 @@ nav .logo img {
 .header {
   position: relative;
   height: 90vh;
-  background-color: orangered;
+  overflow: hidden;
 }
 
 .slider {
@@ -173,11 +177,7 @@ main {
 .new_arrival h2,
 .wears_section h2 {
   text-align: center;
-  background: linear-gradient(
-    to bottom,
-    var(--primary-900),
-    var(--primary-200)
-  );
+  background: linear-gradient(to bottom, var(--primary-900), var(--primary-200));
   color: transparent;
   -webkit-background-clip: text;
 }
@@ -345,7 +345,77 @@ footer span {
     display: none;
   }
 
+  main {
+    padding: 1.5rem 0.6rem;
+  }
+
+  .new_arrival h2,
+  .wears_section h2 {
+    font-size: 15px;
+  }
+
+  .new_arrival--item {
+    min-width: 250px;
+  }
+
+  .new_arrival--item .details h3 {
+    font-size: 12px;
+  }
+
+  .new_arrival--item .details button {
+    font-size: 10px;
+  }
+
+  .wear--item {
+    min-width: 250px;
+    height: 230px;
+  }
+
   .advertisement div {
     font-size: 1.3rem;
+  }
+
+  footer p {
+    font-size: 11px;
+  }
+
+  .aside_slider {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 91vh;
+    width: 100%;
+    background: #fefefe;
+    z-index: 9999999999;
+    color: #000000;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    transform: translateX(-40rem);
+  }
+
+  .aside_slider.active {
+    transform: translateX(0);
+    transition: transform 0.7s ease;
+  }
+
+  .aside_slider .nav_items {
+    display: block;
+  }
+
+  .aside_slider .nav_items li a {
+    font-size: 17px;
+  }
+
+  .aside_slider .nav_items li:not(:first-child) {
+    margin-top: 10px;
+  }
+
+  .action_btns .mobile_grid {
+    padding: 7px;
+    border-radius: 100%;
   }
 }
