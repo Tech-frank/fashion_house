@@ -216,5 +216,29 @@
         </li>
       </ul>
     </div>
-  </body>
+ 
+
+
+
+        <footer id="footerMenuGoesHere" class="footer">
+            <!-- The footer menu will come in here. -->
+        </footer>
+
+        <script src="assets/js/index.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+
+            getNavigationMenu([
+                {
+                    id: 'headerMenuGoesHere',
+                    file: './../components/header.html',
+                },
+                {
+                    id: 'footerMenuGoesHere',
+                    file: './../components/footer.html',
+                }
+            ]);
+        </script>
+    </body>
 </html>

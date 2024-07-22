@@ -46,7 +46,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin: auto;
-  /* padding: 1.5rem 3rem; */
+  padding: 0 3rem;
   height: 9vh;
 }
 
@@ -298,6 +298,10 @@ footer span {
   background: linear-gradient(to top, var(--primary-900), var(--primary-200));
   color: transparent;
   -webkit-background-clip: text;
+}
+
+.aside_slider {
+  display: none;
 }
 
 @media screen and (max-width: 1024px) {

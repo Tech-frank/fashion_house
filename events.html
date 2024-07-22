@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home :: Nuxus home page</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+			integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+			crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/grid.css">
+        <link rel="stylesheet" href="assets/css/card.css">
+        <link rel="stylesheet" href="assets/css/events.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header id="headerMenuGoesHere">
+            <!-- The header menu will come in here first before the banner. -->
+		</header>
+
+        <section class="event-banner">
+            <div class="container py-5">
+                <div class="row event-banner-row">
+                    <div class="col-md-6">
+                        <p>All the fun starts here</p>
+
+                        <h1>Book your <br /> Tickets for Event!</h1>
+
+                        <ul>
+                            <li>Safe, Secure, Reliable ticketing.</li>
+                            <li>Safe, Secure, Reliable ticketing.</li>
+                        </ul>
+
+                        <button>Learn more</button>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="event-banner-img">
+                            <img src="assets/images/hero-two.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="event-cards">
+            <div class="container py-5">
+                <div class="row event-cards-row">
+                    <div class="col-md-12 event-title">
+                        <h1>Featured Events</h1>
+                        <p>Be sure not to miss these events.</p>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="tw-card tw-card-border">
+                            <img src="assets/images/timo-wagner-fT6-YkB0nfg-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="tw-card-amount">₦200 - ₦300</p>
+                                <h3 class="tw-card-name">Lagos Runway</h3>
+                                <p class="tw-card-loda">29 July | Lagos</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="tw-card tw-card-border">
+                            <img src="assets/images/al-elmes-u2Ne6_wtPxw-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="tw-card-amount">₦200 - ₦300</p>
+                                <h3 class="tw-card-name">Italy Fashion Week</h3>
+                                <p class="tw-card-loda">20 August | Italy</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="tw-card tw-card-border">
+                            <img src="assets/images/diogo-fagundes-dbBKeN1s8GY-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="tw-card-amount">₦200 - ₦300</p>
+                                <h3 class="tw-card-name">Paris Fashion Week</h3>
+                                <p class="tw-card-loda">29 August | Paris</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="tw-card tw-card-border">
+                            <img src="assets/images/anthony-delanoix-CFi7_hCXecU-unsplash.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="tw-card-amount">₦200 - ₦300</p>
+                                <h3 class="tw-card-name">London Fashion Week</h3>
+                                <p class="tw-card-loda">29 September | Lagos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="event-cat">
+            <div class="container py-5">
+                <div class="row event-cat-row">
+                    <div class="col-md-12 event-title">
+                        <h1>Trending Categories</h1>
+                        <p>Be sure not to miss these categories.</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="tw-card event-cat-ban ban-01">
+                            <div class="card-body event-cat-ban-det">
+                                <h5 class="">Fashion</h5>
+                                <button>Preview</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="tw-card event-cat-ban ban-02">
+                            <div class="card-body event-cat-ban-det">
+                                <h5 class="">Lifestyle</h5>
+                                <button>Preview</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="tw-card event-cat-ban ban-03">
+                            <div class="card-body event-cat-ban-det">
+                                <h5 class="">Music & Art</h5>
+                                <button>Preview</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="footerMenuGoesHere" class="footer">
+            <!-- The footer menu will come in here. -->
+        </footer>
+
+        <script src="assets/js/index.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+
+            getNavigationMenu([
+                {
+                    id: 'headerMenuGoesHere',
+                    file: './../components/header.html',
+                },
+                {
+                    id: 'footerMenuGoesHere',
+                    file: './../components/footer.html',
+                }
+            ]);
+        </script>
+    </body>
+</html>

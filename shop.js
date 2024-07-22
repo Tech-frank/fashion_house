@@ -53,6 +53,8 @@ const btnGridSlider = document.querySelector(".mobile_grid");
 const sliderComponent = document.querySelector(".aside_slider");
 
 btnGridSlider.addEventListener("click", () => {
-  sliderComponent.classList.toggle("active");
-  document.body.classList.toggle("active");
+  if (innerWidth < 630) {
+    sliderComponent.classList.toggle("active");
+    document.body.classList.toggle("active");
+  }
 });
