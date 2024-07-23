@@ -605,15 +605,15 @@ section .card .image{
   justify-content: center;
  
  }
- .imag{
+ /* .imag{
    object-fit: cover;
    height: 360px;
    text-align: center;
    margin: 0px;
-   width: 370px;
+   width: 100%;
    padding-left:50px ;
  
- }
+ } */
  section .card .image img{
   height: 100%;
   width: 100%;
@@ -762,12 +762,12 @@ color: #fff;
 padding: 100px;
 justify-content: left;
 }
-@media (max-width:760px) {
+/* @media (max-width:760px) {
   .Aboutus{
     max-width: 100%;
     min-width: 100%;
  }
-}
+} */
   @media (max-width:724px) {
     .Aboutus{
       max-width: 800px;
@@ -788,10 +788,10 @@ justify-content: left;
       color: #393838f4;
       display: inline-block;
     }
-    .fetch .imag {
+    /* .fetch .imag {
      height:150px ;
      width:100px ;
-    }
+    } */
     .express{
       text-align: left;
       display: flex;
@@ -841,9 +841,9 @@ justify-content: left;
       
       }
     }  
-@media (max-width:425px) {
+@media (max-width:800px) {
   .fetch .imag {
     height:120px ;
-    width:100px ;
+    width:100% ;
    }
 }
