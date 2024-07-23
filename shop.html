@@ -1,20 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home :: Nuxus home page</title>
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-			integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-			crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
 
-    <body>
-        <header id="headerMenuGoesHere">
-            <!-- The header menu will come in here first before the banner. -->
-		</header>
+    <!-- SCRIPT -->
+    <script defer src="assets/js/shop.js"></script>
+
+    <!-- STYLING -->
+    <link rel="stylesheet" href="assets/css/shop.css" />
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Shop</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <a href="/shop.html" class="logo">
+        <img src="/assets/images/code-fitmis.png" alt="Logo" />
+      </a>
+
+      <ul class="nav_items">
+        <li>
+          <a href="">Home</a>
+        </li>
+
+        <li>
+          <a href="">About</a>
+        </li>
+
+        <li>
+          <a href="">Collections</a>
+        </li>
+
+        <li>
+          <a href="">Contact</a>
+        </li>
+
+        <li>
+          <a href="">Events</a>
+        </li>
+
+        <li>
+          <a href="">Shop</a>
+        </li>
+      </ul>
+
+      <div class="action_btns">
+        <button>
+          <!-- prettier-ignore -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.6em" height="1.6em" viewBox="0 0 512 512"><path fill="#581c87" d="M440.08 341.31c-1.66-2-3.29-4-4.89-5.93c-22-26.61-35.31-42.67-35.31-118c0-39-9.33-71-27.72-95c-13.56-17.73-31.89-31.18-56.05-41.12a3 3 0 0 1-.82-.67C306.6 51.49 282.82 32 256 32s-50.59 19.49-59.28 48.56a3.1 3.1 0 0 1-.81.65c-56.38 23.21-83.78 67.74-83.78 136.14c0 75.36-13.29 91.42-35.31 118c-1.6 1.93-3.23 3.89-4.89 5.93a35.16 35.16 0 0 0-4.65 37.62c6.17 13 19.32 21.07 34.33 21.07H410.5c14.94 0 28-8.06 34.19-21a35.17 35.17 0 0 0-4.61-37.66M256 480a80.06 80.06 0 0 0 70.44-42.13a4 4 0 0 0-3.54-5.87H189.12a4 4 0 0 0-3.55 5.87A80.06 80.06 0 0 0 256 480"/></svg>
+        </button>
+
+        <button>
+          <!-- prettier-ignore -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.6em" height="1.6em" viewBox="0 0 24 24"><path fill="#581c87" d="M15.096 5.904a6.5 6.5 0 1 0-9.192 9.192a6.5 6.5 0 0 0 9.192-9.192M4.49 4.49a8.5 8.5 0 0 1 12.686 11.272l5.345 5.345l-1.414 1.414l-5.345-5.345A8.501 8.501 0 0 1 4.49 4.49"/></svg>
+        </button>
+
+        <button>
+          <!-- prettier-ignore -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="1.6em" height="1.6em" viewBox="0 0 24 24"><path fill="#581c87" d="M12 4a4 4 0 0 1 4 4a4 4 0 0 1-4 4a4 4 0 0 1-4-4a4 4 0 0 1 4-4m0 10c4.42 0 8 1.79 8 4v2H4v-2c0-2.21 3.58-4 8-4"/></svg>
+        </button>
+
+        <button class="mobile_grid">
+          <!-- prettier-ignore -->
+          <svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em" viewBox="0 0 448 512"><path fill="#581c87" d="M32 288c-17.7 0-32 14.3-32 32s14.3 32 32 32h384c17.7 0 32-14.3 32-32s-14.3-32-32-32zm0-128c-17.7 0-32 14.3-32 32s14.3 32 32 32h384c17.7 0 32-14.3 32-32s-14.3-32-32-32z"/></svg>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="header header__slider">
+      <div class="slider slider--1">
+        <img src="/assets/images/slider_image--1.avif" alt="Slider 3" />
+      </div>
+      <div class="slider slider--2">
+        <img src="/assets/images/slider_image--2.avif" alt="Slider 2" />
+      </div>
+      <div class="slider slider--3">
+        <img src="/assets/images/slider_image--3.avif" alt="Slider 1" />
+      </div>
+
+      <button class="slider--btn slider_btn--left">
+        <!-- prettier-ignore -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 32 32"><path fill="none" stroke="#d8b4fe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 30L8 16L20 2"/></svg>
+      </button>
+      <button class="slider--btn slider_btn--right">
+        <!-- prettier-ignore -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 32 32"><path fill="none" stroke="#d8b4fe" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m12 30l12-14L12 2"/></svg>
+      </button>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <!-- Products -->
+      <section class="new_arrival">
+        <h2>New Arrival</h2>
+
+        <div class="new_arrival--items--wrapper">
+          <div class="new_arrival--items">
+            <!-- Single Item -->
+            <div class="new_arrival--item">
+              <img src="assets/images/arrival--1.avif" alt="Shoes" />
+
+              <div class="details">
+                <h3>Nike Travelling | Products</h3>
+                <button>Add to cart</button>
+              </div>
+            </div>
+
+            <div class="new_arrival--item">
+              <img src="assets/images/arrival--2.avif" alt="Shoes" />
+
+              <div class="details">
+                <h3>Nike Travelling | Products</h3>
+                <button>Add to cart</button>
+              </div>
+            </div>
+
+            <div class="new_arrival--item">
+              <img src="assets/images/arrival--3.avif" alt="Shoes" />
+
+              <div class="details">
+                <h3>Nike Travelling | Products</h3>
+                <button>Add to cart</button>
+              </div>
+            </div>
+
+            <div class="new_arrival--item">
+              <img src="assets/images/arrival--4.avif" alt="Shoes" />
+
+              <div class="details">
+                <h3>Nike Travelling | Products</h3>
+                <button>Add to cart</button>
+              </div>
+            </div>
+
+            <div class="new_arrival--item">
+              <img src="assets/images/arrival--5.avif" alt="Shoes" />
+
+              <div class="details">
+                <h3>Nike Travelling | Products</h3>
+                <button>Add to cart</button>
+              </div>
+            </div>
+
+            <div class="new_arrival--item">
+              <img src="assets/images/arrival--7.avif" alt="Shoes" />
+
+              <div class="details">
+                <h3>Nike Travelling | Products</h3>
+                <button>Add to cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Advertisement -->
+      <section class="advertisement">
+        <img src="https://images.unsplash.com/photo-1487744480471-9ca1bca6fb7d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNob3BwaW5nJTIwZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D" alt="Shopping Fashion" />
+        <div>Order from us & Give feeback on the product</div>
+      </section>
+
+      <!-- WEARS -->
+      <section class="wears_section">
+        <h2>Wears</h2>
+
+        <div class="wears--items--wrapper">
+          <div class="wears--items">
+            <!-- Single Item -->
+            <div class="wear--item">
+              <img src="assets/images/wear--1.avif" alt="Wear" />
+            </div>
+
+            <div class="wear--item">
+              <img src="assets/images/wear--2.avif" alt="wear" />
+            </div>
+
+            <div class="wear--item">
+              <img src="assets/images/wear--3.avif" alt="wear" />
+            </div>
+
+            <div class="wear--item">
+              <img src="assets/images/wear--4.avif" alt="wear" />
+            </div>
+
+            <div class="wear--item">
+              <img src="assets/images/wear--5.avif" alt="wear" />
+            </div>
+
+            <div class="wear--item">
+              <img src="assets/images/wear--6.avif" alt="wear" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- <footer>
+      <p>&copy; 2024, All Reserve <span>Code-Fitmis </span></p>
+    </footer> -->
+
+    <!-- Slider -->
+    <div class="aside_slider">
+      <ul class="nav_items">
+        <li>
+          <a href="">Collections</a>
+        </li>
+
+        <li>
+          <a href="">New Arrivals</a>
+        </li>
+
+        <li>
+          <a href="">Wears</a>
+        </li>
+
+        <li>
+          <a href="">Bags</a>
+        </li>
+      </ul>
+    </div>
+ 
 
 
 
@@ -28,10 +239,7 @@
             AOS.init();
 
             getNavigationMenu([
-                {
-                    id: 'headerMenuGoesHere',
-                    file: './../components/header.html',
-                },
+               
                 {
                     id: 'footerMenuGoesHere',
                     file: './../components/footer.html',
