@@ -9,34 +9,43 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
 
     <!-- SCRIPT -->
-    <script defer src="shop.js"></script>
+    <script defer src="assets/js/shop.js"></script>
 
     <!-- STYLING -->
-    <link rel="stylesheet" href="shop.css" />
+    <link rel="stylesheet" href="assets/css/shop.css" />
+    <link rel="stylesheet" href="assets/css/styles.css">
     <title>Shop</title>
   </head>
   <body>
     <!-- Navigation -->
     <nav>
       <a href="/shop.html" class="logo">
-        <img src="image/code-fitmis.png" alt="Logo" />
+        <img src="/assets/images/code-fitmis.png" alt="Logo" />
       </a>
 
       <ul class="nav_items">
+        <li>
+          <a href="">Home</a>
+        </li>
+
+        <li>
+          <a href="">About</a>
+        </li>
+
         <li>
           <a href="">Collections</a>
         </li>
 
         <li>
-          <a href="">New Arrivals</a>
+          <a href="">Contact</a>
         </li>
 
         <li>
-          <a href="">Wears</a>
+          <a href="">Events</a>
         </li>
 
         <li>
-          <a href="">Bags</a>
+          <a href="">Shop</a>
         </li>
       </ul>
 
@@ -66,13 +75,13 @@
     <!-- Hero Section -->
     <header class="header header__slider">
       <div class="slider slider--1">
-        <img src="image/slider_image--1.avif" alt="Slider 3" />
+        <img src="/assets/images/slider_image--1.avif" alt="Slider 3" />
       </div>
       <div class="slider slider--2">
-        <img src="image/slider_image--2.avif" alt="Slider 2" />
+        <img src="/assets/images/slider_image--2.avif" alt="Slider 2" />
       </div>
       <div class="slider slider--3">
-        <img src="image/slider_image--3.avif" alt="Slider 1" />
+        <img src="/assets/images/slider_image--3.avif" alt="Slider 1" />
       </div>
 
       <button class="slider--btn slider_btn--left">
@@ -95,7 +104,7 @@
           <div class="new_arrival--items">
             <!-- Single Item -->
             <div class="new_arrival--item">
-              <img src="image/arrival--1.avif" alt="Shoes" />
+              <img src="assets/images/arrival--1.avif" alt="Shoes" />
 
               <div class="details">
                 <h3>Nike Travelling | Products</h3>
@@ -104,7 +113,7 @@
             </div>
 
             <div class="new_arrival--item">
-              <img src="image/arrival--2.avif" alt="Shoes" />
+              <img src="assets/images/arrival--2.avif" alt="Shoes" />
 
               <div class="details">
                 <h3>Nike Travelling | Products</h3>
@@ -113,7 +122,7 @@
             </div>
 
             <div class="new_arrival--item">
-              <img src="image/arrival--3.avif" alt="Shoes" />
+              <img src="assets/images/arrival--3.avif" alt="Shoes" />
 
               <div class="details">
                 <h3>Nike Travelling | Products</h3>
@@ -122,7 +131,7 @@
             </div>
 
             <div class="new_arrival--item">
-              <img src="image/arrival--4.avif" alt="Shoes" />
+              <img src="assets/images/arrival--4.avif" alt="Shoes" />
 
               <div class="details">
                 <h3>Nike Travelling | Products</h3>
@@ -131,7 +140,7 @@
             </div>
 
             <div class="new_arrival--item">
-              <img src="image/arrival--5.avif" alt="Shoes" />
+              <img src="assets/images/arrival--5.avif" alt="Shoes" />
 
               <div class="details">
                 <h3>Nike Travelling | Products</h3>
@@ -140,7 +149,7 @@
             </div>
 
             <div class="new_arrival--item">
-              <img src="image/arrival--7.avif" alt="Shoes" />
+              <img src="assets/images/arrival--7.avif" alt="Shoes" />
 
               <div class="details">
                 <h3>Nike Travelling | Products</h3>
@@ -165,27 +174,27 @@
           <div class="wears--items">
             <!-- Single Item -->
             <div class="wear--item">
-              <img src="image/wear--1.avif" alt="Wear" />
+              <img src="assets/images/wear--1.avif" alt="Wear" />
             </div>
 
             <div class="wear--item">
-              <img src="image/wear--2.avif" alt="wear" />
+              <img src="assets/images/wear--2.avif" alt="wear" />
             </div>
 
             <div class="wear--item">
-              <img src="image/wear--3.avif" alt="wear" />
+              <img src="assets/images/wear--3.avif" alt="wear" />
             </div>
 
             <div class="wear--item">
-              <img src="image/wear--4.avif" alt="wear" />
+              <img src="assets/images/wear--4.avif" alt="wear" />
             </div>
 
             <div class="wear--item">
-              <img src="image/wear--5.avif" alt="wear" />
+              <img src="assets/images/wear--5.avif" alt="wear" />
             </div>
 
             <div class="wear--item">
-              <img src="image/wear--6.avif" alt="wear" />
+              <img src="assets/images/wear--6.avif" alt="wear" />
             </div>
           </div>
         </div>
@@ -230,10 +239,7 @@
             AOS.init();
 
             getNavigationMenu([
-                {
-                    id: 'headerMenuGoesHere',
-                    file: './../components/header.html',
-                },
+               
                 {
                     id: 'footerMenuGoesHere',
                     file: './../components/footer.html',
