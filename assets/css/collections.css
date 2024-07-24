@@ -44,7 +44,7 @@
         margin-top: -100px;
         box-shadow: 2px 3px 5px rgba(0.1, 0.1, 0.1, 0.3);
         background-color: white;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
       }
       .ach_container{
         display: flex;
@@ -85,7 +85,7 @@
 
       .grid{
         text-align:center;
-        margin:50px 110px;
+        margin:100px 110px;
       }
       .grid_wrapper{
           width: 100%;
@@ -139,8 +139,31 @@
           background-size:cover;
       }
       .grid_card{
-        background:red;
+        transition: ease-in-out 0.7s;
         height:200px;
         text-align:left;
         padding:30px;
+      }
+      .grid_card:hover{
+        transform: scale(1.12);
+      }
+      .grid_card a{
+        margin: 10px 0;
+        font-size: 16px;
+        width: 100px;
+        height: 30px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        
+      }
+      @media(max-width:800px){
+        .grid_wrapper{
+          display: block;
+        }
+        .grid_card{
+          margin: 20px auto;
+        }
       }
