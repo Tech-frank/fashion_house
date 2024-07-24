@@ -1116,3 +1116,29 @@ transition: all 0.5s ease;
   flex-wrap: wrap;
 
 }
+.text_wrapper{
+    display: flex;
+    justify-content: flex-start;
+    background: #24262b;
+    overflow: hidden;
+}
+.text_wrapper p{
+    /* font-size: 1.3rem;
+    color: transparent;
+    -webkit-text-stroke-width: 0.133px;
+    -webkit-text-stroke-color: white; */
+    color: white;
+    padding:0 6rem;
+    animation: move-rtl 6000ms linear infinite;
+    width: 300px;
+    word-wrap: normal;
+    white-space: nowrap;
+}
+@keyframes move-rtl {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
