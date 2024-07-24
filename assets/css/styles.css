@@ -12,13 +12,10 @@
     --light-pink:#F3D0D7;
     --lighter-pink:#FFEFEF;
 }
-body{
-    background: linear-gradient(180deg, #FFFFFF, #F9F9F9);
-    background-color: #FFFFF0;
-}
+
 
 /* project fonts */
-@font-face {
+/* @font-face {
     font-family: poppins_black;
     src: url("../fonts/Poppins/Poppins-Black.ttf");
 }
@@ -29,11 +26,11 @@ body{
 @font-face {
     font-family: poppins_bold;
     src: url("../fonts/Poppins/Poppins-Bold.ttf");
-}
-@font-face {
+} */
+/* @font-face {
     font-family: poppins_bold_italic;
     src: url("../fonts/Poppins/Poppins-BoldItalic.ttf");
-}
+} */
 @font-face {
     font-family: poppins_extralight;
     src: url("../fonts/Poppins/Poppins-ExtraLight.ttf");
@@ -42,15 +39,15 @@ body{
     font-family: poppins_extralight_italic;
     src: url("../fonts/Poppins/Poppins-ExtraLightItalic.ttf");
 }
-@font-face {
+/* @font-face {
     font-family: poppins_italic;
     src: url("../fonts/Poppins/Poppins-Italic.ttf");
 }
 @font-face {
     font-family: poppins_light;
     src: url("../fonts/Poppins/Poppins-Light.ttf");
-}
-@font-face {
+} */
+/* @font-face {
     font-family: poppins_light_italic;
     src: url("../fonts/Poppins/Poppins-LightItalic.ttf");
 }
@@ -65,11 +62,12 @@ body{
 @font-face {
     font-family: poppins_regular;
     src: url("../fonts/Poppins/Poppins-Regular.ttf");
-}
+} */
 
 body{
     
     font-family: poppins_extralight;
+    background-color: #FFFFF0;
 }
 
 
